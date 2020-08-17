@@ -36,7 +36,7 @@ def find_valid_calls(planeteer_calls)
   
   valid.find do |element|
     if planeteer_calls[element] == valid_calls[element]
-              return valid_calls[element]
+              return planeteer_calls[element]
     end
   end
   
