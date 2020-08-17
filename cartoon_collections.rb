@@ -37,8 +37,8 @@ def find_valid_calls(planeteer_calls)
   valid_calls.find do |element|
    
               return element
-    end
+    
   end
   
-  reutrn nil 
+  return nil 
 end
